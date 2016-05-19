@@ -14,6 +14,7 @@
 		046075E01CEC4A5400194325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046075DE1CEC4A5400194325 /* LaunchScreen.storyboard */; };
 		046075EB1CEC4A5400194325 /* QuartzFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046075EA1CEC4A5400194325 /* QuartzFunTests.swift */; };
 		046075F61CEC4A5400194325 /* QuartzFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046075F51CEC4A5400194325 /* QuartzFunUITests.swift */; };
+		046076061CEC4A9600194325 /* QuartzFunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046076051CEC4A9600194325 /* QuartzFunView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		046075F11CEC4A5400194325 /* QuartzFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046075F51CEC4A5400194325 /* QuartzFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartzFunUITests.swift; sourceTree = "<group>"; };
 		046075F71CEC4A5400194325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046076051CEC4A9600194325 /* QuartzFunView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuartzFunView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				046075D51CEC4A5400194325 /* AppDelegate.swift */,
 				046075D71CEC4A5400194325 /* ViewController.swift */,
+				046076051CEC4A9600194325 /* QuartzFunView.swift */,
 				046075D91CEC4A5400194325 /* Main.storyboard */,
 				046075DC1CEC4A5400194325 /* Assets.xcassets */,
 				046075DE1CEC4A5400194325 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046076061CEC4A9600194325 /* QuartzFunView.swift in Sources */,
 				046075D81CEC4A5400194325 /* ViewController.swift in Sources */,
 				046075D61CEC4A5400194325 /* AppDelegate.swift in Sources */,
 			);
